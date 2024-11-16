@@ -1,0 +1,51 @@
+
+.navBar{
+    display: flex;
+    background-color: aqua;
+}
+.navList{
+    display: flex;
+    list-style-type: none;
+}
+li {
+    margin-right: 100%;
+}
+.navList li a{
+text-decoration: none;
+}
+.navList li a:hover{
+    color: rgb(18, 231, 149);
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: powderblue;
+}
+.flex-container > div{
+    background-color: white;
+    height: 400px;
+    line-height: 20px;
+    width: 600px;
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: grid auto auto auto;
+    background-color: #9ab3ec;
+    height: 400px;
+}
+.grid-container>div{
+    display: flex;
+}
+.grid-container>div li{
+    list-style-type: none;
+    display: flex;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    height: 50px;
+    
+}
+
